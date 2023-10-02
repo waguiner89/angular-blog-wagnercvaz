@@ -1,0 +1,16 @@
+.small-card-container {
+  border: solid white 2px;
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5px;
+}
+
+.small-card-foto > a > img {
+  max-width: 100%;
+}
+
+.small-card-title {
+  margin-left: 5px;
+}
