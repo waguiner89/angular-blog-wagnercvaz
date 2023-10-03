@@ -1,16 +1,13 @@
 .small-card-container {
-  border: solid white 2px;
   width: 500px;
+}
+
+.small-card-container-content{
   display: flex;
   flex-direction: row;
-  align-items: center;
-  padding: 5px;
+  padding: 20px;
 }
 
 .small-card-foto > a > img {
-  max-width: 100%;
-}
-
-.small-card-title {
-  margin-left: 5px;
+  max-width: 90%;
 }
