@@ -3,7 +3,7 @@
   <div class="big-card-foto">
     <a href="https://angular.io/guide/releases" target="_blank">
       <img
-        src="https://miro.medium.com/v2/resize:fit:1400/1*bMgQ8MhbnQexpqHgIgBJPA.png"
+        src="{{ photoCover }}"
         alt=""
         srcset=""
       >
@@ -12,11 +12,11 @@
 
   <div class="big-card-title">
     <a href="https://angular.io/guide/releases" target="_blank">
-      <h1>Nova versão Angular foi recentemente lançada</h1>
+      <h1>{{ cardTitle }}</h1>
     </a>
   </div>
 
   <div class="big-card-description">
-    <p>Qualquer coisa está escrito aqui para exemplificar</p>
+    <p>{{ cardDescription }}</p>
   </div>
 </div>
