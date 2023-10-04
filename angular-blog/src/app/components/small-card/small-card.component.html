@@ -1,18 +1,15 @@
 <div class="small-card-container">
   <div class="small-card-container-content">
     <div class="small-card-foto">
-      <a href="https://angular.io/guide/releases" target="_blank">
         <img
           src="{{ photoCover }}"
           alt=""
-          srcset=""
-        >
-      </a>
+          srcset="">
     </div>
 
     <div class="small-card-title">
       <h1>
-        <a href="https://angular.io/guide/releases" target="_blank">
+        <a [routerLink]="['content', Id]">
           {{ cardTitle }}
         </a>
       </h1>

@@ -1,22 +1,22 @@
 <div class="big-card-container">
 
   <div class="big-card-foto">
-    <a href="https://angular.io/guide/releases" target="_blank">
       <img
         src="{{ photoCover }}"
         alt=""
         srcset=""
       >
-    </a>
   </div>
 
   <div class="big-card-title">
-    <a href="https://angular.io/guide/releases" target="_blank">
-      <h1>{{ cardTitle }}</h1>
-    </a>
+      <h1><a [routerLink]="['content', Id]">{{ cardTitle }}</a></h1>
   </div>
 
   <div class="big-card-description">
-    <p>{{ cardDescription }}</p>
+    <p>
+      <a [routerLink]="['content', Id]">
+        {{ cardDescription }}
+      </a>
+    </p>
   </div>
 </div>
